@@ -1,0 +1,33 @@
+/*  vendor.scss: this sass file is used to define the vendor specific variables.
+    These will be referenced in the common.scss file  */
+
+/* Splash Screen */
+
+/* Logo */
+
+/* Colors */
+/* Brand Colors*/
+:root {
+    --brandPrimary: #008080;
+    --brandPrimaryDark: #006666;
+    --brandPrimaryLight: #80C0C0;
+    --brandSecondary: #3A539B;
+    --brandSecondaryDark: #2E427C;
+    --brandSecondaryLight: #9DA9CD;
+    --brandTertiary: #1460AA;
+    --brandTertiaryDark: #104D88;
+    --brandTertiaryLight: #8AB0D5;
+
+    /*  Alert Colors*/
+    --alertFriendly: #F07509;
+    --alertWarning: #DB372C;
+
+    /*  Secondary Header Bar*/
+    --startColor: #008080;                   /*  Background start color for gradient in 'Hello...' and loan drop down bar*/
+    --endColor: #008080;                     /*  Background end color for gradient in 'Hello...' and loan drop down bar*/
+
+    /* Typography */
+    /*  Fonts*/
+    --primaryFont: "proxima-nova";
+    --secondaryFont: "proxima-nova";
+    }
