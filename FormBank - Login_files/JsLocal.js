@@ -11,7 +11,7 @@
 			options
 		};
 		if (window.webkit && window.webkit.messageHandlers) {
-			f(window.webkit.messageHandlers.openWindow) {
+			if(window.webkit.messageHandlers.openWindow) {
 				console.log("1");
 			return	window.webkit.messageHandlers.openWindow.postMessage(message);
 			}
