@@ -10,9 +10,9 @@
 			url,
 			options
 		};
-		if ((window as any).webkit && (window as any).webkit.messageHandlers) {
-			f((window as any).webkit.messageHandlers.openWindow) {
-			return	(window as any).webkit.messageHandlers.openWindow.postMessage(message);
+		if (window.webkit && window.webkit.messageHandlers) {
+			f(window.webkit.messageHandlers.openWindow) {
+			return	window.webkit.messageHandlers.openWindow.postMessage(message);
 			}
 			return this.changeLocation(url);
 		}
